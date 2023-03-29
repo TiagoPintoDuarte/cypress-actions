@@ -5,7 +5,7 @@ on:
     inputs:
       cli:
         description: run by command line
-        default: uarn cypress run
+        default: yarn cypress run
 
 jobs:
   cypress-electron-tests:
